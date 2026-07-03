@@ -20,7 +20,7 @@ export default defineConfig(async ({ mode }) => {
   }
 
   return {
-    base: "/Lumen-Analytics-Suite/", // 👈 ADD THIS LINE
+    base: "/", // 👈 ADD THIS LINE
     plugins,
     envPrefix: ["VITE_", "NEXT_PUBLIC_"],
     define: processEnvDefines,
